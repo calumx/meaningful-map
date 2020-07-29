@@ -1,0 +1,120 @@
+body {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  font-family: 'Libre Baskerville';
+  font-weight: 500;
+  font-size: 18px;
+}
+
+p {
+  text-align: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  font-size: 0.9rem;
+}
+
+.topnav-left {
+  float: left;
+  padding: 5px 0px 5px 8px;
+  line-height: 40px;
+}
+
+.topnav a {
+  line-height: 40px;
+  float: right;
+  color: white;
+  padding: 5px 10px 5px 4px;
+  margin-right: 5px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#bullet {
+  color: #757575;
+}
+
+#bullet:hover {
+  background-color: black;
+}
+
+.topnav a:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.main-content {
+  margin-top: 100px;
+}
+
+h1 {
+  font-family: 'Lora';
+  font-size: 44.7px;
+  color: rgb(68, 68, 68);
+  text-align: center;
+  font-weight: 700;
+}
+
+#msg-header {
+  margin-top: 100px;
+}
+
+.contact-form {
+  margin-left: 30%;
+}
+
+input[type='text'],
+input[type='email'],
+label {
+  display: block;
+  width: 580px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+label {
+  padding-left: 0;
+}
+
+input,
+textarea {
+  border: 2px solid rgb(224, 224, 224);
+  border-radius: 1%;
+}
+
+textarea {
+  width: 580px;
+  height: 200px;
+  resize: none;
+  font-family: 'Lora';
+}
+.button-black {
+  background-color: black;
+  left: 3px;
+  right: 3px;
+  border: 2px solid;
+  color: white;
+  padding: 7px 13px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 2px black;
+}
+
+.button-black:hover {
+  background-color: #222;
+}

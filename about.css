@@ -1,0 +1,89 @@
+body {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  font-family: 'Libre Baskerville';
+  color: #444444;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.78;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  font-size: 0.9rem;
+}
+
+.topnav-left {
+  float: left;
+  padding: 5px 0px 5px 8px;
+  line-height: 40px;
+}
+
+.topnav a {
+  line-height: 40px;
+  float: right;
+  color: white;
+  padding: 5px 10px 5px 4px;
+  margin-right: 5px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#bullet {
+  color: #757575;
+}
+
+#bullet:hover {
+  background-color: black;
+}
+
+.topnav a:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.main-content {
+  margin-top: 100px;
+}
+
+h1 {
+  font-family: 'Lora';
+  font-size: 44.7px;
+  color: rgb(68, 68, 68);
+  text-align: center;
+  font-weight: 700;
+}
+
+.about-columns-container {
+  display: grid;
+  grid-template-columns: 14% 36% 31% 15%;
+  column-gap: 1%;
+  margin: 100px 0px;
+}
+
+.col-img {
+  background: url('https://meaningfulmap.files.wordpress.com/2020/04/photo-1531152127291-ea24c3b2a1da.jpg');
+  background-repeat: no-repeat;
+  background-size: 503px 335.32px;
+  height: 100%;
+  grid-column: 2;
+}
+
+.col-txt {
+  grid-column: 3;
+  text-align: left;
+}
+
+.associated-orgs {
+  margin: auto;
+  width: 50%;
+  font-size: 18px;
+}

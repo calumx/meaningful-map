@@ -1,0 +1,298 @@
+body {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  font-family: "Libre Baskerville";
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.topnav-left {
+  float: left;
+  padding: 5px 0px 5px 8px;
+  line-height: 40px;
+}
+
+.topnav a {
+  line-height: 40px;
+  float: right;
+  color: white;
+  padding: 5px 10px 5px 4px;
+  margin-right: 5px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#bullet {
+  color: #757575;
+}
+
+#bullet:hover {
+  background-color: black;
+}
+
+.topnav a:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.main-content {
+  margin-top: 10px;
+}
+
+.header-img {
+  background: linear-gradient(rgba(20, 20, 20, 0.4), rgba(20, 20, 20, 0.4)),
+    url("https://meaningfulmap.files.wordpress.com/2020/04/birdseyeglasgowweb1-1.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 43%;
+  background-size: cover;
+  min-height: 696px;
+  margin-bottom: 100px;
+}
+
+.header-img-content {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 31.104px;
+  color: white;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+.button-black {
+  background-color: black;
+  left: 3px;
+  right: 3px;
+  border: 2px solid;
+  color: white;
+  padding: 7px 13px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 2px black;
+}
+
+.button-black:hover {
+  background-color: #222;
+}
+
+.blurb-box {
+  background-color: rgb(117, 117, 117);
+  font-size: 25.92px;
+  color: white;
+  width: 50%;
+  text-align: center;
+  padding: 16px 16px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+
+.blurb-box p {
+  padding-top: 0;
+  margin-top: 0px;
+  margin-bottom: -4px;
+  line-height: 29px;
+}
+
+hr {
+  width: 6.5%;
+  border: 0;
+  height: 0;
+  border-top: 2px solid rgba(150, 150, 150, 0.4);
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+
+.bio-columns-container {
+  display: grid;
+  grid-template-columns: 4% 50% 35%;
+  column-gap: 2%;
+}
+
+.biog {
+  grid-column-start: 2;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #444;
+  font-weight: 400;
+  font-size: 14.9999px;
+  line-height: 1.78;
+  padding-left: 22px;
+  margin-top: 37px;
+}
+
+.bio-pic {
+  grid-column-start: 3;
+  justify-self: center;
+}
+
+#bio-pic {
+  border-radius: 50%;
+  width: 256px;
+  height: 251px;
+}
+
+.bio-pic p {
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 1px;
+  color: #757575;
+}
+
+.call-to-action {
+  text-align: center;
+}
+
+strong {
+  font-size: 25.9px;
+  color: #444444;
+}
+
+.call-to-action p {
+  font-size: 18px;
+  margin-top: 50px;
+  margin-bottom: 110px;
+}
+
+.action-columns-container {
+  display: grid;
+  grid-template-columns: 10% 25% 25%;
+  column-gap: 10%;
+}
+
+.storytelling {
+  grid-column-start: 2;
+  font-size: 18px;
+  color: #444444;
+  font-weight: bolder;
+}
+
+.contribution {
+  grid-column-start: 3;
+  font-size: 18px;
+  color: #444444;
+  font-weight: bolder;
+  justify-content: space-between;
+}
+
+.storytelling p {
+  font-weight: 100;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+.contribution p {
+  font-weight: 100;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+.button-white {
+  background-color: white;
+  left: 3px;
+  right: 3px;
+  border: 3px solid;
+  color: #444444;
+  padding: 7px 13px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-left: 0;
+}
+
+.button-white:hover {
+  background-color: #f0f0f0;
+}
+
+#quotes-left {
+  border-left: 4px solid black;
+  padding: 0 16px;
+  width: 50%;
+  margin: 0 auto 100px auto;
+}
+
+#quotes-right {
+  border-right: 4px solid black;
+  padding: 0 16px;
+  width: 50%;
+  margin: 0 auto;
+  text-align: right;
+}
+
+.quotes strong {
+  font-family: "Lora";
+  font-size: 31px;
+  color: #444444;
+  font-weight: 400;
+}
+
+.quotes p {
+  display: inline;
+  font-family: "Libre Baskerville";
+  color: #757575;
+  font-size: 15px;
+  line-height: 26.7px;
+}
+
+.gloom-img {
+  background: url("https://meaningfulmap.files.wordpress.com/2020/04/crawford-jolly-vjte3o-r1fo-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 60%;
+  background-size: cover;
+  min-height: 696px;
+}
+
+.get-in-touch-container {
+  background-color: #f0f0f0;
+  width: 100%;
+}
+
+.get-in-touch {
+  margin: 0 auto;
+  padding-top: 32px;
+  width: 50%;
+  text-align: center;
+}
+
+.get-in-touch strong {
+  font-family: "Lora";
+}
+
+.get-in-touch p {
+  font-size: 18px;
+  color: #444444;
+  margin: 32px auto;
+  max-width: 73%;
+  line-height: 32.04px;
+}
+
+#final-button {
+  margin-bottom: 50px;
+}
