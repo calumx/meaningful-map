@@ -2,7 +2,7 @@ body {
   background-color: white;
   padding: 0;
   margin: 0;
-  font-family: "Libre Baskerville";
+  font-family: 'Libre Baskerville';
   font-weight: 500;
   font-size: 0.9rem;
 }
@@ -53,7 +53,7 @@ body {
 
 .header-img {
   background: linear-gradient(rgba(20, 20, 20, 0.4), rgba(20, 20, 20, 0.4)),
-    url("https://meaningfulmap.files.wordpress.com/2020/04/birdseyeglasgowweb1-1.jpg");
+    url('https://meaningfulmap.files.wordpress.com/2020/04/birdseyeglasgowweb1-1.jpg');
   background-repeat: no-repeat;
   background-position: 50% 43%;
   background-size: cover;
@@ -151,8 +151,8 @@ hr {
 
 #bio-pic {
   border-radius: 50%;
-  width: 256px;
-  height: 251px;
+  width: 200px;
+  height: 200px;
 }
 
 .bio-pic p {
@@ -247,7 +247,7 @@ strong {
 }
 
 .quotes strong {
-  font-family: "Lora";
+  font-family: 'Lora';
   font-size: 31px;
   color: #444444;
   font-weight: 400;
@@ -255,14 +255,14 @@ strong {
 
 .quotes p {
   display: inline;
-  font-family: "Libre Baskerville";
+  font-family: 'Libre Baskerville';
   color: #757575;
   font-size: 15px;
   line-height: 26.7px;
 }
 
 .gloom-img {
-  background: url("https://meaningfulmap.files.wordpress.com/2020/04/crawford-jolly-vjte3o-r1fo-unsplash.jpg");
+  background: url('https://meaningfulmap.files.wordpress.com/2020/04/crawford-jolly-vjte3o-r1fo-unsplash.jpg');
   background-repeat: no-repeat;
   background-position: 50% 60%;
   background-size: cover;
@@ -282,7 +282,7 @@ strong {
 }
 
 .get-in-touch strong {
-  font-family: "Lora";
+  font-family: 'Lora';
 }
 
 .get-in-touch p {
